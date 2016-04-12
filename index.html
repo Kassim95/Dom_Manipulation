@@ -7,14 +7,18 @@
 	<script src="my_library.js"></script>
 </head>
 <body>
-	<h1 class="header" id="header1">Hello</h1>
-	<h1 class="header" id="header2">World</h1>
+	<form>
+		<span>Enter Date: </span><input type="text" id="txtDate" />
 
-	<ul>
-		<li>1</li>
-		<li>1</li>
-		<li>1</li>
-	</ul>
+		<span class="error"> Invalid Date. The format should be : mm/dd/yyyy or mm-dd-yyyy</span><br>
 
+		Name: <input type="text" name="fname"><br>
+
+		Password: <input type="text" id="password">
+		<span class="error2"> Invalid Password. The password should be 12345!</span><br>
+
+
+	<input id="btnSubmit" type="submit" value="Submit">
+	</form>	
 </body>
 </html>
