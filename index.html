@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Form </title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="my_library.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<p class="header"> Please sign in Thank You </p>
+	<div class="box">
 	<form>
-		<span>Enter Date: </span><input type="text" id="txtDate" />
-
+		<span><p>Enter Date:</span><input type="text" id="txtDate" />
 		<span class="error"> Invalid Date. The format should be : mm/dd/yyyy or mm-dd-yyyy</span><br>
-
 		Name: <input type="text" id="fname">
 		<span class="error3"> Enter a Username</span><br>
-
 		Password: <input type="text" id="password">
-		<span class="error2"> Invalid Password. The password should be 12345!</span><br>
+		<span class="error2">Invalid Password. The password should be 12345!</span><br>
 
+		<input id="btnSubmit" type="submit" value="Submit">
 		<h1 id="key"></h1>
-
-	<input id="btnSubmit" type="submit" value="Submit">
-
 	</form>	
+</div>
 </body>
 </html>
